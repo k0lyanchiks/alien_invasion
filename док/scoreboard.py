@@ -73,7 +73,7 @@ class Scoreboard():
             self.ships.add(ship)
 
     def prep_charge(self):
-        self.charge_image = self.font.render("Charging", True, self.charge_color, self.ai_settings.bg_color)
+        self.charge_image = self.font.render(" ", True, self.charge_color, self.ai_settings.bg_color)
         self.charge_rect = self.charge_image.get_rect()
         self.charge_rect.left = self.high_score_rect.right + 100
         self.charge_rect.top = self.score_rect.top
