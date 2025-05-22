@@ -17,7 +17,7 @@ def run_game():
     pygame.display.set_caption("Alien Invasion")
     
     # Draw start button
-    play_button = Button(ai_settings, screen, "Play")
+    play_button = Button(ai_settings, screen, "Играть")
     
     # Make a ship, bullets, aliens and stats
     ship = Ship(ai_settings, screen)
